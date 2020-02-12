@@ -4,9 +4,10 @@
       "name": "Abby",
       "occupation": "Data reporter",
       "location": "Chicago", 
-      "email": "abbysblachman@gmail.com",
+      "years": 2,
       "hasTwitter": true, 
-      "twitter": "abbyblachman"
+      "twitter": "abbyblachman", 
+      "isEmployee": true
     },
     {
         "id": 2,
@@ -14,17 +15,59 @@
         "occupation": "Reporter",
         "location": "Chicago", 
         "hasTwitter": true, 
-        "email": "john@gmail.com", 
-        "twitter": "john"
+        "years": 2, 
+        "twitter": "john",
+        "isEmployee": true
       }, 
       {
         "id": 3,
         "name": "Emily",
         "occupation": "Reporter",
         "location": "Chicago", 
-        "email": "emily@gmail.com", 
+        "years": 6,
         "hasTwitter": false, 
-        "twitter": ""
+        "twitter": "", 
+        "isEmployee": true
+      }, 
+      {
+        "id": 4,
+        "name": "David",
+        "occupation": "Developer",
+        "location": "Remote", 
+        "years": 8, 
+        "hasTwitter": false, 
+        "twitter": "",
+        "isEmployee": true
+      }, 
+      {
+        "id": 5,
+        "name": "Jonah",
+        "occupation": "Editor",
+        "location": "Remote", 
+        "years": 3,
+        "hasTwitter": false, 
+        "twitter": "", 
+        "isEmployee": true
+      }, 
+      {
+        "id": 6,
+        "name": "Charles",
+        "occupation": "Social media",
+        "location": "New York", 
+        "years": 4, 
+        "hasTwitter": true, 
+        "twitter": "charles", 
+        "isEmployee": true
+      }, 
+      {
+        "id": 7,
+        "name": "Amanda",
+        "occupation": "Development Director",
+        "location": "San Francisco", 
+        "years": 7,
+        "hasTwitter": true, 
+        "twitter": "amanda", 
+        "isEmployee": true
       }
   ]
   

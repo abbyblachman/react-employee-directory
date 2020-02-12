@@ -22,10 +22,9 @@ function TableData(props) {
             {props.location}
           </div>
           <div className="col-2 themed-grid-col" style={style.dataStyle}>
-            {props.email}
+            {props.years}
           </div>
           <div className="col-2 themed-grid-col" style={style.dataStyle}>
-            {props.twitter}
           </div>
     </div>
     </>
