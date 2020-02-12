@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "Abby",
+      "occupation": "Data reporter",
+      "location": "Chicago", 
+      "email": "abbysblachman@gmail.com",
+      "hasTwitter": true, 
+      "twitter": "abbyblachman"
+    },
+    {
+        "id": 2,
+        "name": "John",
+        "occupation": "Reporter",
+        "location": "Chicago", 
+        "hasTwitter": true, 
+        "email": "john@gmail.com", 
+        "twitter": "john"
+      }, 
+      {
+        "id": 3,
+        "name": "Emily",
+        "occupation": "Reporter",
+        "location": "Chicago", 
+        "email": "emily@gmail.com", 
+        "hasTwitter": false, 
+        "twitter": ""
+      }
+  ]
+  
