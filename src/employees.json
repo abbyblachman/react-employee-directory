@@ -6,7 +6,7 @@
       "location": "Chicago", 
       "years": 2,
       "hasTwitter": true, 
-      "twitter": "abbyblachman", 
+      "twitter": "@abbyblachman", 
       "isEmployee": true
     },
     {
@@ -16,7 +16,7 @@
         "location": "Chicago", 
         "hasTwitter": true, 
         "years": 2, 
-        "twitter": "john",
+        "twitter": "@john",
         "isEmployee": true
       }, 
       {
@@ -56,7 +56,7 @@
         "location": "New York", 
         "years": 4, 
         "hasTwitter": true, 
-        "twitter": "charles", 
+        "twitter": "@charles", 
         "isEmployee": true
       }, 
       {
@@ -66,7 +66,7 @@
         "location": "San Francisco", 
         "years": 7,
         "hasTwitter": true, 
-        "twitter": "amanda", 
+        "twitter": "@amanda", 
         "isEmployee": true
       }
   ]

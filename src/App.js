@@ -37,8 +37,9 @@ class App extends Component {
 render() {
   return (
   <Container><h1>Employee Directory</h1>
-  <p className="lead">A fast and easy way to search for employees.</p>
-  <p>You can filter the employee directory to see specific results.</p>
+  <p className="lead">A fast and easy way to see all of your employees.</p>
+  <p>You can filter and sort the employee directory to see specific results.</p>
+  <div>
   <AllEmployees
     allEmployees={this.allEmployees}>
   </AllEmployees>
@@ -48,6 +49,7 @@ render() {
   <ExperienceSort
   experienceSort={this.experienceSort}>
   </ExperienceSort> 
+  </div>
   <TableHead></TableHead>
   {this.state.employees.map(employee => (
 

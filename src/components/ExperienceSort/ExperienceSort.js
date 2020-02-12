@@ -1,9 +1,13 @@
 import React from "react";
 
+const style = {
+  margin: "0.5rem"
+}
+
 function ExperienceSort(props) {
     return(
         <>
-        <button onClick={() => props.experienceSort(props.id)} className="success">
+        <button style={style} onClick={() => props.experienceSort(props.id)} className="btn btn-warning">
         Sort by years of experience
       </button>
     </>

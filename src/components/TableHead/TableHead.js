@@ -4,7 +4,9 @@ const style = {
     dataStyle: {
         border: "0.02rem solid",
         padding: "0.6rem",
-        fontWeight: "bold"
+        fontWeight: "bold",
+        marginBottom: "0.7rem",
+        marginTop: "0.7rem"
     }
 }
 
