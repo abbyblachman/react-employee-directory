@@ -3,8 +3,8 @@ import React from "react";
 function ExperienceSort(props) {
     return(
         <>
-        <button onClick={() => props.employeeTwitter(props.id)} className="success">
-        Employees on Twitter
+        <button onClick={() => props.experienceSort(props.id)} className="success">
+        Sort by years of experience
       </button>
     </>
     )

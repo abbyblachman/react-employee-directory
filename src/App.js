@@ -5,6 +5,7 @@ import TableHead from "./components/TableHead/TableHead"
 // import TwitterFilter from "./components/TwitterFilter/TwitterFilter"
 import employees from "./employees.json"
 import TwitterFilter from "./components/TwitterFilter/TwitterFilter";
+import ExperienceSort from "./components/ExperienceSort/ExperienceSort";
 import AllEmployees from "./components/AllEmployees/AllEmployees";
 
 class App extends Component {
@@ -30,7 +31,7 @@ class App extends Component {
 
   experienceSort = years => {
     const employees = this.state.employees.sort( function ( a, b ) { return b.years - a.years; } );
-    console.log(employees)
+    this.setState({ employees });
   }
 
 render() {
