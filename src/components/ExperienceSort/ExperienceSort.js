@@ -8,7 +8,7 @@ function ExperienceSort(props) {
     return(
         <>
         <button style={style} onClick={() => props.experienceSort(props.id)} className="btn btn-warning">
-        Sort by years of experience
+        Sort by number of years of experience
       </button>
     </>
     )
