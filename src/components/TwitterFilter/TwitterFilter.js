@@ -8,7 +8,7 @@ function TwitterFilter(props) {
     return(
         <>
         <button style={style} onClick={() => props.employeeTwitter(props.id)} className="btn btn-success">
-        Employees on Twitter
+        Employees on twitter
       </button>
     </>
     )
