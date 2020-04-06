@@ -8,7 +8,7 @@ function AllEmployees(props) {
     return(
         <>
         <button style={style} onClick={() => props.allEmployees(props.id)} className="btn btn-primary">
-        All Employees
+        All employees
       </button>
     </>
     )
