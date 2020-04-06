@@ -11,12 +11,12 @@
     },
     {
         "id": 2,
-        "name": "John",
+        "name": "Joe",
         "occupation": "Reporter",
         "location": "Chicago", 
         "hasTwitter": true, 
         "years": 2, 
-        "twitter": "@john",
+        "twitter": "@joe",
         "isEmployee": true
       }, 
       {
