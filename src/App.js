@@ -38,7 +38,7 @@ render() {
   return (
   <Container><h1>Employee Directory</h1>
   <p className="lead">A fast and easy way to see all of your employees.</p>
-  <p>You can filter and sort the employee directory to see specific results.</p>
+  <p>You can filter and sort the employee directory by clicking the buttons.</p>
   <div>
   <AllEmployees
     allEmployees={this.allEmployees}>
