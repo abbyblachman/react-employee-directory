@@ -24,7 +24,7 @@ function TableHead() {
         LOCATION
         </div>
         <div className="col-2 themed-grid-col" style={style.dataStyle}>
-        YEARS OF EXPERIENCE
+        # OF YEARS OF EXPERIENCE
         </div>
         <div className="col-2 themed-grid-col" style={style.dataStyle}>
         TWITTER
